@@ -11,14 +11,22 @@
   app.directive('bootstrapNavbar', function(){
     return{
       restrict: 'E',
-      templateUrl: 'bs-navbar.html'
+      templateUrl: 'views/navbar/bs-navbar.html',
+      controller: function(){
+
+      },
+      controllerAs: 'bsNavbar'
     };
   });
 
   app.directive('qlNavbar', function(){
     return{
       restrict: 'E',
-      templateUrl: 'ql-navbar.html'
+      templateUrl: 'views/navbar/ql-navbar.html',
+      controller: function(){
+
+      },
+      controllerAs: 'qlNavbar'
     };
   });
 
