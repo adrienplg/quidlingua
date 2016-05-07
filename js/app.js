@@ -15,4 +15,11 @@
     };
   });
 
+  app.directive('qlNavbar', function(){
+    return{
+      restrict: 'E',
+      templateUrl: 'ql-navbar.html'
+    };
+  });
+
 })();
