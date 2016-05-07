@@ -1,7 +1,5 @@
 (function (){
-
-	// Main module
-	var app = angular.module('quidLingua', []);
+	var app = angular.module('quidlingua', ['quidlingua-mainpage']);
 
 	// Index page controller
 	app.controller('MainPageController', function(){
@@ -19,17 +17,6 @@
     };
   });
 
-  app.directive('qlMainpage', function(){
-    return{
-      restrict: 'E',
-      templateUrl: 'views/mainpage/ql-main.html',
-      controller: function(){
-
-      },
-      controllerAs: 'mainpageCtrl'
-    };
-  });
-
   app.directive('qlNavbar', function(){
     return{
       restrict: 'E',
@@ -38,17 +25,6 @@
 
       },
       controllerAs: 'navbarCtrl'
-    };
-  });
-
-  app.directive('qlQuote', function(){
-    return{
-      restrict: 'E',
-      templateUrl: 'views/mainpage/ql-quote.html',
-      controller: function(){
-
-      },
-      controllerAs: 'quoteCtrl'
     };
   });
 
