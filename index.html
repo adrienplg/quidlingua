@@ -1,22 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html ng-app="quidLingua" lang="en">
 <head>
     <meta charset="utf-8">
     <title tkey="page-main-title">Quid Lingua</title>
+    <link data-require="bootstrap-css" rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <script type="text/javascript" src="js/third/jquery-1.12.3.min.js"></script>
-	<script type="text/javascript" src="js/third/js.cookies.js"></script>
-	<script type="text/javascript" src="js/lang.js"></script>
+		<script type="text/javascript" src="js/third/js.cookies.js"></script>
+		<script type="text/javascript" src="js/third/angular.min.js"></script>
+		<script type="text/javascript" src="js/lang.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
 </head>
 <body>
-	<!-- header -->
-	<div>
-		<!-- header title -->
-		<div>
+
+	<bootstrap-navbar></bootstrap-navbar>
+
+	<!-- navbar -->
+	<nav>
+		<!-- navbar title -->
 			<h1>Quid Lingua<h1>
 			<!-- <h2>Legal Translation Solutions</h2> -->
 			<h2 tkey="subtitle"></h2>
 		</div>
-		<!-- header menu -->
+		<!-- navbar menu -->
 		<div>
 			<ul>
 				<li>Services</li>
@@ -24,28 +29,36 @@
 				<li>Contact</li>
 			</ul>
 		</div>
-		<!-- header lang -->
+		<!-- navbar lang -->
 		<div>
 			<button onclick="langModule.changeLang('fr')">fr</button>
 			<button onclick="langModule.changeLang('en')">en</button>
 		</div>
-	</div>
+	</nav>
 
 	<!-- main page -->
 	<div>
 		<!-- difficulties -->
-		<div>
+		<div name="difficulties">
+			<h3>Difficulties</h3>
 			<p tkey="example1"></p>
 			<p tkey="example2"></p> 
 		</div>
 		<!-- services -->
-		<div>
+		<div name="services">
+			<h3>Services</h3>
 		</div>
 		<!-- our team -->
-		<div>
+		<div name="team">
+			 <h3>Our team</h3>
 		</div>
 		<!-- contact -->
-		<div>
+		<div name="contact">
+			<h3>Contact</h3>
+		</div>
+		<!-- quote -->
+		<div name="quote">
+			<h3>Quote</h3>
 		</div>
 	</div>
 
