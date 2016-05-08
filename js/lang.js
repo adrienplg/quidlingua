@@ -12,6 +12,7 @@ langModule = function(){
 	}
 
 	var changeLang = function(langCode){
+		// console.log('changing lang to: ', langCode)
 		var lang = 'en'
 		if ($.inArray(langCode, langs) > -1) {
 			lang = langCode
@@ -70,4 +71,4 @@ langModule = function(){
 }();
 
 langModule.init();
-	
+

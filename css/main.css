@@ -1,0 +1,22 @@
+/*
+color picker: 
+http://coloreminder.com
+*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #0d0d0d;
+}
+
+.ql-navbar h1 {
+    font-family: 'Julius Sans One', sans-serif; 
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2em; 
+}
+
+.ql-navbar h2 {
+    font-family: 'Julius Sans One', sans-serif; 
+    font-size: 1.2em;
+    color: #666666;
+}
