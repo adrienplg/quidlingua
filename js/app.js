@@ -17,6 +17,17 @@
     };
   });
 
+  app.directive('qlMarketing', function(){
+    return{
+      restrict: 'E',
+      templateUrl: 'views/mainpage/ql-marketing.html',
+      controller: function(){
+
+      },
+      controllerAs: 'marketingCtrl'
+    };
+  });
+
   app.directive('qlNavbar', function(){
     return{
       restrict: 'E',

@@ -6,10 +6,16 @@ http://coloreminder.com
 body {
   font-family: 'Open Sans', sans-serif;
   color: #0d0d0d;
+  padding: 0px;
 }
 
 #mainpage {
   margin-top: 50px;
+}
+
+.ql-mainframe {
+  padding: 0;
+  padding-top: 50px;
 }
 
 .navbar-header {
