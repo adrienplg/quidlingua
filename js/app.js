@@ -6,14 +6,14 @@
 		var frenchMainPage = { name: 'french_main', url: 'fr/index.html'}
 	});
 
-  app.directive('bootstrapNavbar', function(){
+  app.directive('qlCarousel', function(){
     return{
       restrict: 'E',
-      templateUrl: 'views/navbar/bs-navbar.html',
+      templateUrl: 'views/mainpage/ql-carousel.html',
       controller: function(){
 
       },
-      controllerAs: 'bsNavbarCtrl'
+      controllerAs: 'carouselCtrl'
     };
   });
 
