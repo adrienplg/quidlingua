@@ -8,7 +8,15 @@ body {
   color: #0d0d0d;
 }
 
-.ql-navbar h1 {
+.navbar-header {
+  display: inline-block;
+}
+
+.navbar-nav {
+  text-transform: uppercase;
+}
+
+.ql-navbar .navbar-brand {
     font-family: 'Julius Sans One', sans-serif; 
     font-style: italic;
     font-weight: bold;

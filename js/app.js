@@ -22,7 +22,18 @@
       restrict: 'E',
       templateUrl: 'views/navbar/ql-navbar.html',
       controller: function(){
-
+        this.setLang = function(lang) {
+          enLang = angular.element(document.querySelector('#enLang'));
+          frLang = angular.element(document.querySelector('#frLang'));
+          if (lang === 'en'){
+            enLang.attr('class',"active");
+            frLang.removeAttr('class',"active");
+          }
+          if (lang === 'fr'){
+            frLang.attr('class',"active");
+            enLang.removeAttr('class',"active");
+          }
+        };
       },
       controllerAs: 'navbarCtrl'
     };
