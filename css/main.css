@@ -8,6 +8,10 @@ body {
   color: #0d0d0d;
 }
 
+#mainpage {
+  margin-top: 50px;
+}
+
 .navbar-header {
   display: inline-block;
 }
