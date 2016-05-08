@@ -4,7 +4,7 @@
   app.directive('qlMainpage', function(){
     return{
       restrict: 'E',
-      templateUrl: 'views/mainpage/ql-main.html',
+      templateUrl: 'views/mainpage/ql-mainpage.html',
       controller: function(){
 
       },

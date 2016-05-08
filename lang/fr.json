@@ -1,5 +1,8 @@
 {
     "subtitle" : "Services de Traductions Juridiques",
-    "example1" : "Example baguette n1",
-    "example2" : "Example baguette n2"
+    "title-services": "Services",
+    "title-team": "Société",
+    "title-contact": "Contact",
+    "title-difficulties": "Difficultés",
+    "title-quote": "Devis"
 }
