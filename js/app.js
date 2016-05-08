@@ -22,18 +22,33 @@
       restrict: 'E',
       templateUrl: 'views/navbar/ql-navbar.html',
       controller: function(){
-        this.setLang = function(lang) {
-          enLang = angular.element(document.querySelector('#enLang'));
-          frLang = angular.element(document.querySelector('#frLang'));
+
+        this.setActiveLang = function(lang) {
+          // get both language links
+          enLangLink = angular.element(document.querySelector('#enLang'));
+          frLangLink = angular.element(document.querySelector('#frLang'));
+          // activate the english link
           if (lang === 'en'){
-            enLang.attr('class',"active");
-            frLang.removeAttr('class',"active");
+            enLangLink.attr('class',"active");
+            frLangLink.removeAttr('class',"active");
           }
+          // activate the french link
           if (lang === 'fr'){
-            frLang.attr('class',"active");
-            enLang.removeAttr('class',"active");
+            frLangLink.attr('class',"active");
+            enLangLink.removeAttr('class',"active");
           }
+          langModule.changeLang(lang);
         };
+
+        this.init = function() {
+          // initialize the language module
+          langModule.init();
+          // get the stored language and use it to set the active flag on the language buttons
+          lang = langModule.getStoredLang();
+          this.setActiveLang(lang);
+        };
+
+        this.init();
       },
       controllerAs: 'navbarCtrl'
     };

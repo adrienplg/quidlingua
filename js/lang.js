@@ -1,8 +1,10 @@
+// Module responsible for the language management
 langModule = function(){
 	var langs = ['en', 'it', 'fr'];
 	var currentLang = '';
 	var langJS = null;
 
+	// Modify the values of all tags having the 'tkey' attribute
 	var translate = function (jsdata){	
 		$("[tkey]").each (function (index)
 		{
@@ -11,9 +13,9 @@ langModule = function(){
 		});
 	}
 
+	// Change the language of the website
 	var changeLang = function(langCode){
-		// console.log('changing lang to: ', langCode)
-		var lang = 'en'
+		var lang = 'en';
 		if ($.inArray(langCode, langs) > -1) {
 			lang = langCode
 		}
@@ -25,6 +27,9 @@ langModule = function(){
 		}
 	}
 
+	// init should only be called when the browser is refreshed
+	// check if a language is stored. if not defined, set English as default
+	// change the website language
 	var init = function (){
 		var langCode;
 		var lang = getStoredLang();
@@ -70,5 +75,5 @@ langModule = function(){
 	}
 }();
 
-langModule.init();
+// langModule.init();
 
