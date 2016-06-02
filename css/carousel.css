@@ -45,13 +45,24 @@ body {
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
+  top:1em;
+  padding-top: 230px;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
-  background-color: #777;
 }
+
+.carousel-inner{
+  background-color: #000;
+  /*background-image: url("http://img0.mxstatic.com/wallpapers/4f6327fededc195fb775c89d95f3aaca_large.jpeg");*/
+  background-image: url("../images/people-wide.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: 5;
+}
+
 .carousel-inner > .item > img {
   position: absolute;
   top: 0;
