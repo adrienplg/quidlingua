@@ -1,4 +1,4 @@
-<nav id="ql-navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+<nav id="ql-navbar" class="navbar navbar-default navbar-fixed-top" role="navigation" ng-controller="NavBarController">
   <div class="container">
 
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -26,9 +26,11 @@
       </ul>
 
       <ul class="nav navbar-nav navbar-right navbar-uppercase">
-        <li class="active"><a href="#services" tkey="title-services"></a></li>
-        <li><a href="#team" tkey="title-team"></a></li>
-        <li><a href="#contact" tkey="title-contact"></a></li>
+        <li ng-repeat="item in navbarItems"
+            ng-class="{ 'active': $index == selectedIndex }"
+            ng-click="itemClicked($index)">
+          <a href="{{ item.href }}" tkey="{{ item.label }}">{{ item.label }}</a>
+        </li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
