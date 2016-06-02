@@ -12,6 +12,39 @@
     };
   });
 
+  app.directive('qlContact', function(){
+    return{
+      restrict: 'E',
+      templateUrl: 'views/mainpage/ql-contact.html',
+      controller: function(){
+
+      },
+      controllerAs: 'contactCtrl'
+    };
+  });
+
+  app.directive('qlTeam', function(){
+    return{
+      restrict: 'E',
+      templateUrl: 'views/mainpage/ql-team.html',
+      controller: function(){
+
+      },
+      controllerAs: 'teamCtrl'
+    };
+  });
+
+  app.directive('qlServices', function(){
+    return{
+      restrict: 'E',
+      templateUrl: 'views/mainpage/ql-services.html',
+      controller: function(){
+
+      },
+      controllerAs: 'servicesCtrl'
+    };
+  });
+
   app.directive('qlQuote', function(){
     return{
       restrict: 'E',
