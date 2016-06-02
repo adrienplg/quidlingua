@@ -9,6 +9,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #0d0d0d;
   padding: 0px;
+  padding-top: 40px;
 }
 
 #mainpage {
@@ -17,5 +18,4 @@ body {
 
 .ql-mainframe {
   padding: 0;
-  padding-top: 50px;
 }
