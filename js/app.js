@@ -6,6 +6,31 @@
 		var frenchMainPage = { name: 'french_main', url: 'fr/index.html'}
 	});
 
+  // navbar controller
+  app.controller('NavBarController', function($scope){
+    $scope.navbarItems = [
+      {
+        key: 'services',
+        label: 'Services',
+        href: '#services'
+      },
+      {
+        key: 'team',
+        label: 'Team',
+        href: '#team'
+      },
+      {
+        key: 'contact',
+        label: 'Contact',
+        href: '#contact'
+      }
+    ]
+  
+    $scope.itemClicked = function ($index) {
+      $scope.selectedIndex = $index;
+    }
+  });
+
   app.directive('qlCarousel', function(){
     return{
       restrict: 'E',
@@ -75,5 +100,4 @@
       controllerAs: 'footerCtrl'
     };
   });
-
 })();
