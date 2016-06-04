@@ -8,8 +8,8 @@ main blue: #003399
 body {
   font-family: 'Open Sans', sans-serif;
   color: #0d0d0d;
-  padding: 0px;
-  padding-top: 40px;
+  padding: 0;
+  /*padding-top: 40px;*/
 }
 
 #mainpage {
