@@ -1,22 +1,52 @@
-#ql-navbar {
+.navbar {
   font-family: 'Julius Sans One', sans-serif; 
-  color: #0d0d0d;
-}
-
-.navbar-header {
-  display: inline-block;
-}
-
-.navbar-nav {
+  color: #e7e7e7;
+  background-color: black;
+  margin-bottom: 0;
+  border-bottom-color: transparent;
   text-transform: uppercase;
 }
 
-#ql-navbar .navbar-brand {
+/*navbar brand*/
+.navbar-default .navbar-brand {
     font-style: italic;
     font-weight: bold;
     font-size: 2em; 
+    color: #e7e7e7;
 }
 
+.navbar-default .navbar-brand:hover {
+  color: #e7e7e7;
+}
+
+.navbar .navbar-brand>.active {
+  color: #e7e7e7;
+}
+.navbar-default .navbar-brand:focus {
+  color: #e7e7e7;
+}
+
+/*navbar items*/
+.navbar-default .navbar-nav>li>a {
+    color: #e7e7e7;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #99cccc;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #99cccc;
+}
+
+/*navbar item selected*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: #e7e7e7;
+    font-weight: 300;
+}
+
+/*TODO: subtitle that is not yet used*/
 #ql-navbar h2 {
     font-size: 1.2em;
     color: #666666;
