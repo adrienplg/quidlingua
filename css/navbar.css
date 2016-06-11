@@ -11,7 +11,8 @@
 .navbar-default{
   height: 80px;
   /*background-color: #F6F8FD;*/
-  background-color: transparent;
+  background-color: #687699;
+  /*background-color: transparent;*/
   /*border-color: #99add6;*/
   display: flex;
   justify-content: center;
@@ -24,17 +25,19 @@
     font-style: italic;
     font-weight: bold;
     font-size: 32px; 
-    color: #001e5b;
+    /*color: #001e5b;*/
+    color: #f2f2f2;
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand>.active {
-  color: #001e5b;
+  /*color: #001e5b;*/
+  color: #f2f2f2;
 }
 
 /*UNUSED AT THIS POINT*/
 .navbar-header h2 {
-  font-size: 16px;
-  color: #3d3d3d;
+  /*font-size: 16px;*/
+  /*color: #3d3d3d;*/
 }
 
 /*--------------*/
@@ -45,8 +48,12 @@
   letter-spacing: 1px;
 }
 
+.navbar-default .navbar-nav>li>a{
+  color: #f2f2f2;
+}
+
 .navbar-default .navbar-nav>li>a:hover {
-    color: #003399;
+  color: #d8d8d8;
 }
 
 /*----------------------*/
