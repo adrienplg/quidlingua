@@ -1,0 +1,16 @@
+.ql-about-container {
+  height: 420px;
+  width: 100%;
+  background-color: #FBFBFC;
+  margin: 0 0 50px 0;
+  border-top: 1px solid #E1E1E1;
+  padding: 60px 0;
+}
+
+.ql-about-container img {
+  margin: auto;
+}
+
+.ql-about-container p {
+  margin-bottom: 30px;
+}

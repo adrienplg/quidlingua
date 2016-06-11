@@ -10,14 +10,14 @@
   app.controller('NavBarController', function($scope){
     $scope.navbarItems = [
       {
+        key: 'about',
+        label: 'About',
+        href: '#about'
+      },
+      {
         key: 'services',
         label: 'Services',
         href: '#services'
-      },
-      {
-        key: 'team',
-        label: 'Team',
-        href: '#team'
       },
       {
         key: 'contact',
@@ -29,6 +29,28 @@
     $scope.itemClicked = function ($index) {
       $scope.selectedIndex = $index;
     }
+  });
+
+  app.directive('qlPresentation', function(){
+    return{
+      restrict: 'E',
+      templateUrl: 'views/mainpage/ql-presentation.html',
+      controller: function(){
+
+      },
+      controllerAs: 'presentationCtrl'
+    };
+  });
+
+  app.directive('qlAbout', function(){
+    return{
+      restrict: 'E',
+      templateUrl: 'views/mainpage/ql-about.html',
+      controller: function(){
+
+      },
+      controllerAs: 'aboutCtrl'
+    };
   });
 
   app.directive('qlCarousel', function(){

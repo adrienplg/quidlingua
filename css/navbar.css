@@ -1,53 +1,77 @@
 .navbar {
   font-family: 'Julius Sans One', sans-serif; 
-  color: #e7e7e7;
-  background-color: black;
-  margin-bottom: 0;
-  border-bottom-color: transparent;
+  margin-bottom: none;
   text-transform: uppercase;
 }
 
-/*navbar brand*/
+.ql-navbar-container {
+  align-self: center;
+}
+
+.navbar-default{
+  height: 80px;
+  /*background-color: #F6F8FD;*/
+  background-color: transparent;
+  /*border-color: #99add6;*/
+  display: flex;
+  justify-content: center;
+}
+
+/*--------------*/
+/* NAVBAR BRAND */
+/*--------------*/
 .navbar-default .navbar-brand {
     font-style: italic;
     font-weight: bold;
-    font-size: 2em; 
-    color: #e7e7e7;
+    font-size: 32px; 
+    color: #001e5b;
 }
 
-.navbar-default .navbar-brand:hover {
-  color: #e7e7e7;
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand>.active {
+  color: #001e5b;
 }
 
-.navbar .navbar-brand>.active {
-  color: #e7e7e7;
-}
-.navbar-default .navbar-brand:focus {
-  color: #e7e7e7;
+/*UNUSED AT THIS POINT*/
+.navbar-header h2 {
+  font-size: 16px;
+  color: #3d3d3d;
 }
 
-/*navbar items*/
+/*--------------*/
+/* NAVBAR ITEMS */
+/*--------------*/
 .navbar-default .navbar-nav>li>a {
-    color: #e7e7e7;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-    color: #99cccc;
+    color: #003399;
 }
 
-.navbar-default .navbar-nav>li>a:hover {
-    color: #99cccc;
-}
-
-/*navbar item selected*/
+/*----------------------*/
+/* NAVBAR ITEMS SELECTED*/
+/*----------------------*/
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: #555;
-    background-color: #e7e7e7;
+    color: #E87B0C;
+    background-color: transparent;
     font-weight: 300;
 }
 
-/*TODO: subtitle that is not yet used*/
-#ql-navbar h2 {
-    font-size: 1.2em;
-    color: #666666;
+/*-------------------*/
+/* NAVBAR LANG ITEMS */
+/*-------------------*/
+.ql-lang-nav-items>.active>a {
+  border: 1px solid #E87B0C;
+  border-radius: 4px;
+  background-color: red;
 }
+
+.navbar-default .navbar-nav.ql-lang-nav-items>.active>a {
+  background-color: #fcf1e6;
+}
+
+
+
+
+
