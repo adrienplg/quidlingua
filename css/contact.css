@@ -1,0 +1,50 @@
+.ql-contact {
+  padding: 50px 0;
+  background-color: white;
+}
+
+.ql-contact h3, h2 {
+  text-align: center;
+}
+
+.ql-contact h2 {
+  color: #E87B0C;
+  margin-top: .25em;
+  font-size: 32px;
+  letter-spacing: -.01em;
+  /*color: rgba(67,0,152,0.85);*/
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+.ql-contact h4 {
+  margin-top: .6em;
+  /*font-size: 23px;*/
+  color: #888;
+  margin: 0 0 2px 0;
+  /*margin-bottom: 60px;*/
+}
+
+.ql-contact .separator {
+  margin: 20px 0;
+}
+
+.ql-contact dl, .ql-contact p {
+  color: #595959;
+}
+
+.ql-contact p {
+  padding-left: 50px;
+}
+
+.ql-contact .ql-contact-text {
+  padding: 15px 0 15px 235px;
+}
+
+.ql-contact .ql-bold {
+  font-weight: 600;
+}
+
+.ql-contact .ql-contact-info {
+  /*padding-left: 30px;*/
+}

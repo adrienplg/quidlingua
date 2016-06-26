@@ -24,11 +24,13 @@
     font-style: italic;
     font-weight: bold;
     font-size: 32px; 
-    color: #001e5b;
+    /*color: #001e5b;*/
+    color: #5E6C8E;
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand>.active {
-  color: #001e5b;
+  /*color: #001e5b;*/
+  color: #5E6C8E;
 }
 
 /*UNUSED AT THIS POINT*/
@@ -50,7 +52,7 @@
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-    color: #003399;
+    color: #5E6C8E;
 }
 
 

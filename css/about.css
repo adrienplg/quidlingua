@@ -1,17 +1,57 @@
 .ql-about-container {
-  height: 420px;
+  /*height: 420px;*/
   width: 100%;
-  background-color: #FBFBFC;
-  margin: 0 0 50px 0;
-  border-top: 1px solid #E1E1E1;
-  border-bottom: 1px solid #E1E1E1;
-  padding: 60px 0;
-}
-
-.ql-about-container img {
-  margin: auto;
+  margin: 0;
+  padding: 40px 0 60px 0;
 }
 
 .ql-about-container p {
+  margin-bottom: 20px;
+}
+
+.ql-audrey-name {
+  /*color: #C05134;*/
+}
+
+.img-circle {
+  /*border: 3px solid #E87B0C;*/
+}
+
+.ql-about-container h3, h2 {
+  text-align: center;
+}
+
+.ql-about-container h2 {
+  color: #E87B0C;
+  margin-top: .25em;
+  font-size: 32px;
+  letter-spacing: -.01em;
+  /*color: rgba(67,0,152,0.85);*/
+  font-weight: 100;
+}
+
+.ql-about-container h3 {
+  margin-top: .6em;
+  font-size: 23px;
+  color: #888;
+  margin-bottom: 30px;
+}
+
+.ql-about-container h4 {
+  margin-top: .6em;
+  /*font-size: 18px;*/
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.ql-about-container .separator {
+  margin: 20px 0;
+}
+
+.ql-narrow {
+  padding: 0 30px;
+}
+
+.ql-image-audrey {
   margin-bottom: 20px;
 }

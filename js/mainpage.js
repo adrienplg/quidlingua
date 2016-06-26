@@ -12,17 +12,6 @@
     };
   });
 
-  app.directive('qlContact', function(){
-    return{
-      restrict: 'E',
-      templateUrl: 'views/mainpage/ql-contact.html',
-      controller: function(){
-
-      },
-      controllerAs: 'contactCtrl'
-    };
-  });
-
   app.directive('qlTeam', function(){
     return{
       restrict: 'E',
@@ -31,17 +20,6 @@
 
       },
       controllerAs: 'teamCtrl'
-    };
-  });
-
-  app.directive('qlServices', function(){
-    return{
-      restrict: 'E',
-      templateUrl: 'views/mainpage/ql-services.html',
-      controller: function(){
-
-      },
-      controllerAs: 'servicesCtrl'
     };
   });
 

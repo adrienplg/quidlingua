@@ -4,16 +4,16 @@
   text-transform: uppercase;
 }
 
-.ql-navbar-container {
-  align-self: center;
-}
-
 .navbar-default{
   height: 80px;
   background-color: #687699;
   /*border-color: #99add6;*/
   display: flex;
   justify-content: center;
+}
+
+.ql-navbar-container {
+  align-self: center;
 }
 
 /*--------------*/

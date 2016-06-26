@@ -20,6 +20,11 @@
         href: '#services'
       },
       {
+        key: 'clients',
+        label: 'Clients',
+        href: '#clients'
+      },
+      {
         key: 'contact',
         label: 'Contact',
         href: '#contact'
@@ -50,6 +55,39 @@
 
       },
       controllerAs: 'aboutCtrl'
+    };
+  });
+
+  app.directive('qlServices', function(){
+    return{
+      restrict: 'E',
+      templateUrl: 'views/mainpage/ql-services.html',
+      controller: function(){
+
+      },
+      controllerAs: 'servicesCtrl'
+    };
+  });
+
+  app.directive('qlClients', function(){
+    return{
+      restrict: 'E',
+      templateUrl: 'views/mainpage/ql-clients.html',
+      controller: function(){
+
+      },
+      controllerAs: 'clientsCtrl'
+    };
+  });
+
+  app.directive('qlContact', function(){
+    return{
+      restrict: 'E',
+      templateUrl: 'views/mainpage/ql-contact.html',
+      controller: function(){
+
+      },
+      controllerAs: 'contactCtrl'
     };
   });
 
