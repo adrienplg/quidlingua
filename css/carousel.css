@@ -46,7 +46,7 @@ body {
 .carousel-caption {
   z-index: 10;
   top:1em;
-  padding-top: 230px;
+  padding-top: 300px;
 }
 
 /* Declare heights because of positioning of img element */
@@ -57,7 +57,7 @@ body {
 .carousel-inner{
   background-color: #000;
   /*background-image: url("http://img0.mxstatic.com/wallpapers/4f6327fededc195fb775c89d95f3aaca_large.jpeg");*/
-  background-image: url("../images/people-wide.png");
+  background-image: url("../images/people_wide.JPG");
   background-position: center center;
   background-repeat: no-repeat;
   z-index: 5;

@@ -49,8 +49,8 @@ footer .col-6 {
 }
 
 footer .bot {
-    background-color: #000;
-    color: #FFF;
+    background-color: #F0F0F0;
+    color: #222;
     font-size: 13px;
     text-align: center;
     width: 100%;
@@ -64,7 +64,7 @@ footer .bot p {
 }
 
 footer .bot a {
-    color: #FFF;
+    color: #222;
 }
 
 footer .bot .container .inner-container {

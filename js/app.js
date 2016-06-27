@@ -10,14 +10,19 @@
   app.controller('NavBarController', function($scope){
     $scope.navbarItems = [
       {
+        key: 'about',
+        label: 'About',
+        href: '#about'
+      },
+      {
         key: 'services',
         label: 'Services',
         href: '#services'
       },
       {
-        key: 'team',
-        label: 'Team',
-        href: '#team'
+        key: 'clients',
+        label: 'Clients',
+        href: '#clients'
       },
       {
         key: 'contact',
@@ -29,6 +34,61 @@
     $scope.itemClicked = function ($index) {
       $scope.selectedIndex = $index;
     }
+  });
+
+  app.directive('qlPresentation', function(){
+    return{
+      restrict: 'E',
+      templateUrl: 'views/mainpage/ql-presentation.html',
+      controller: function(){
+
+      },
+      controllerAs: 'presentationCtrl'
+    };
+  });
+
+  app.directive('qlAbout', function(){
+    return{
+      restrict: 'E',
+      templateUrl: 'views/mainpage/ql-about.html',
+      controller: function(){
+
+      },
+      controllerAs: 'aboutCtrl'
+    };
+  });
+
+  app.directive('qlServices', function(){
+    return{
+      restrict: 'E',
+      templateUrl: 'views/mainpage/ql-services.html',
+      controller: function(){
+
+      },
+      controllerAs: 'servicesCtrl'
+    };
+  });
+
+  app.directive('qlClients', function(){
+    return{
+      restrict: 'E',
+      templateUrl: 'views/mainpage/ql-clients.html',
+      controller: function(){
+
+      },
+      controllerAs: 'clientsCtrl'
+    };
+  });
+
+  app.directive('qlContact', function(){
+    return{
+      restrict: 'E',
+      templateUrl: 'views/mainpage/ql-contact.html',
+      controller: function(){
+
+      },
+      controllerAs: 'contactCtrl'
+    };
   });
 
   app.directive('qlCarousel', function(){

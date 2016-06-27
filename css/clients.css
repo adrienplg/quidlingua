@@ -1,0 +1,36 @@
+.ql-clients-container {
+  width: 100%;
+  margin: 0;
+  padding: 40px 0 60px 0;
+  background-color: #5E6C8E;
+  color: #eee;
+}
+
+.ql-clients-container h2 {
+  margin-top: .6em;
+  font-size: 32px;
+  /*margin-bottom: 30px;*/
+}
+
+.ql-clients-container h3 {
+  margin-top: .6em;
+  font-size: 23px;
+  /*margin-bottom: 30px;*/
+}
+
+.ql-clients-container .separator {
+  margin: 20px 0;
+}
+
+.ql-clients-container ul {
+  padding-left: 80px;
+}
+
+.ql-clients-container li {
+  font-size: 14px;
+  margin: 15px 0;
+}
+
+.ql-clients-container .ql-narrow {
+  padding: 0 160px;
+}

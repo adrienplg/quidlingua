@@ -1,0 +1,84 @@
+.navbar {
+  font-family: 'Julius Sans One', sans-serif; 
+  margin-bottom: none;
+  text-transform: uppercase;
+}
+
+.ql-navbar-container {
+  align-self: center;
+}
+
+.navbar-default{
+  height: 80px;
+  /*background-color: #F6F8FD;*/
+  background-color: transparent;
+  /*border-color: #99add6;*/
+  display: flex;
+  justify-content: center;
+}
+
+/*--------------*/
+/* NAVBAR BRAND */
+/*--------------*/
+.navbar-default .navbar-brand {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 32px; 
+    /*color: #001e5b;*/
+    color: #5E6C8E;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand>.active {
+  /*color: #001e5b;*/
+  color: #5E6C8E;
+}
+
+/*UNUSED AT THIS POINT*/
+.navbar-header h2 {
+  /*font-size: 16px;*/
+  /*color: #3d3d3d;*/
+}
+
+/*--------------*/
+/* NAVBAR ITEMS */
+/*--------------*/
+.navbar-default .navbar-nav>li>a {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+}
+
+.navbar-default .navbar-nav>li>a{
+  
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #5E6C8E;
+}
+
+
+/*----------------------*/
+/* NAVBAR ITEMS SELECTED*/
+/*----------------------*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #E87B0C;
+    background-color: transparent;
+    font-weight: 300;
+}
+
+/*-------------------*/
+/* NAVBAR LANG ITEMS */
+/*-------------------*/
+.ql-lang-nav-items>.active>a {
+  border: 1px solid #E87B0C;
+  border-radius: 4px;
+  background-color: red;
+}
+
+.navbar-default .navbar-nav.ql-lang-nav-items>.active>a {
+  background-color: #fcf1e6;
+}
+
+
+
+
+
