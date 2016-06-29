@@ -1,10 +1,5 @@
 (function (){
-	var app = angular.module('quidlingua', ['quidlingua-mainpage']);
-
-	// Index page controller
-	app.controller('MainPageController', function(){
-		var frenchMainPage = { name: 'french_main', url: 'fr/index.html'}
-	});
+  var app = angular.module('quidlingua', []);
 
   // navbar controller
   app.controller('NavBarController', function($scope){
@@ -121,8 +116,8 @@
 
         this.setActiveLang = function(lang) {
           // get both language links
-          enLangLink = angular.element(document.querySelector('#enLang'));
-          frLangLink = angular.element(document.querySelector('#frLang'));
+          var enLangLink = angular.element(document.querySelector('#enLang'));
+          var frLangLink = angular.element(document.querySelector('#frLang'));
           // activate the english link
           if (lang === 'en'){
             enLangLink.attr('class',"active");
@@ -140,7 +135,7 @@
           // initialize the language module
           langModule.init();
           // get the stored language and use it to set the active flag on the language buttons
-          lang = langModule.getStoredLang();
+          var lang = langModule.getStoredLang();
           this.setActiveLang(lang);
         };
 
