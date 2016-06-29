@@ -1,27 +1,8 @@
 .ql-services {
-  padding: 50px 0;
+  padding: 5em 0;
   border-top: 1px solid #E1E1E1;
   border-bottom: 1px solid #E1E1E1;
   background-color: #FBFBFC;
-}
-
-.ql-services h3, h2 {
-  text-align: center;
-}
-
-.ql-services h2 {
-  color: #E87B0C;
-  margin-top: .25em;
-  font-size: 32px;
-  letter-spacing: -.01em;
-  font-weight: 100;
-}
-
-.ql-services h3 {
-  margin-top: .6em;
-  font-size: 23px;
-  color: #888;
-  margin-bottom: 60px;
 }
 
 .ql-services .service-item {
@@ -36,13 +17,6 @@
   font-size: 26px;
   color: #E87B0C;
   float: left;
-}
-
-.ql-services h4 {
-  margin: 4px 0 0 0;
-  font-weight: 600;
-  font-size: 18px;
-  color: #111;
 }
 
 .ql-services p {

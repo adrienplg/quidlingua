@@ -1,19 +1,17 @@
 .ql-clients {
   width: 100%;
   margin: 0;
-  padding: 40px 0 60px 0;
+  padding: 5em 0 6em 0;
   background-color: #5E6C8E;
   color: #eee;
 }
 
-.ql-clients h2 {
-  margin-top: .6em;
-  font-size: 32px;
+.ql-clients .ql-client-image {
+  padding-top: 3em;
 }
 
-.ql-clients h3 {
-  margin-top: .6em;
-  font-size: 23px;
+.ql-clients h2, .ql-clients h3 {
+  color: #eee;
 }
 
 .ql-clients ul {
@@ -21,8 +19,8 @@
 }
 
 .ql-clients li {
-  font-size: 14px;
-  margin: 15px 0;
+  font-size: 160%;
+  margin: 1.5em 0;
 }
 
 .ql-clients .ql-narrow {

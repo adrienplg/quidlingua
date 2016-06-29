@@ -1,10 +1,41 @@
 body {
   font-family: 'Open Sans', sans-serif;
   color: #555;
+  font-size: 100%;
+}
+
+h2, h3 {
+  text-align: center;
 }
 
 h2 {
   font-family: 'PT Sans', sans-serif;
+  color: #E87B0C;
+  margin-top: .25em;
+  font-size: 320%;
+  letter-spacing: -.01em;
+  font-weight: 100;
+}
+
+h3 {
+  color: #888;
+  margin-top: .6em;
+  font-size: 230%;
+}
+
+h4 {
+  margin: 0.2em 0 0 0;
+  font-weight: 600;
+  font-size: 180%;
+  color: #111;
+}
+
+p {
+  font-size: 140%;
+}
+
+.navbar-nav {
+  font-size: 140%;
 }
 
 .ql-mainframe {
@@ -12,5 +43,5 @@ h2 {
 }
 
 .ql-separator {
-  margin: 20px 0;
+  margin: 2em 0;
 }

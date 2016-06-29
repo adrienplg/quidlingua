@@ -1,24 +1,12 @@
 .ql-contact {
-  padding: 50px 0;
+  padding: 5em 0;
   background-color: white;
 }
 
-.ql-contact h3, h2 {
-  text-align: center;
-}
-
-.ql-contact h2 {
-  color: #E87B0C;
-  margin-top: .25em;
-  font-size: 32px;
-  letter-spacing: -.01em;
-  font-weight: 100;
-  margin-bottom: 20px;
-}
-
 .ql-contact h4 {
+  font-weight: 300;
   color: #888;
-  margin: 0 0 4px 0;
+  margin: 0 0 0.4em 0;
 }
 
 .ql-contact dl, .ql-contact p {
@@ -26,11 +14,11 @@
 }
 
 .ql-contact p {
-  padding-left: 50px;
+  padding-left: 5em;
 }
 
 .ql-contact .ql-contact-text {
-  padding: 15px 0 15px 235px;
+  padding: 1.5em 0 1.5em 23.5em;
 }
 
 .ql-contact .ql-bold {
