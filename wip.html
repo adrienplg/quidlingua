@@ -2,13 +2,12 @@
 <html ng-app="quidlingua" lang="en">
 <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title tkey="page-main-title">Quid Lingua</title>
   <link rel="shortcut icon" type="image/x-icon" href="ql-favicon.ico" />
 
   <!-- third-party CSS -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-  <link rel="stylesheet" type="text/css" href="css/carousel.css" />
-  <link rel="stylesheet" type="text/css" href="css/scrolling-nav.css" />
   <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css" />
 
     <!-- fonts -->
@@ -29,11 +28,12 @@
     <link rel="stylesheet" type="text/css" href="css/footer.css" />
 
 </head>
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body>
+    <div class="container-fluid ql-mainframe">
 
-	<ql-navbar></ql-navbar>
-	<div class="container-fluid ql-mainframe">
+	   <ql-navbar></ql-navbar>
         <!--<ql-presentation></ql-presentation>-->
+
         <ql-about></ql-about>
         <ql-services></ql-services>
         <ql-clients></ql-clients>
@@ -48,10 +48,6 @@
 
     <!-- Bootstrap core javascript -->
     <script src="js/third/bootstrap.min.js"></script>
-
-    <!-- Scrolling Nav JavaScript -->
-    <script type="text/javascript" src="js/third/jquery.easing.min.js"></script>
-    <script type="text/javascript" src="js/third/scrolling-nav.js"></script>
 
     <!-- QuidLingua javascript -->
     <script type="text/javascript" src="js/lang.js"></script>
