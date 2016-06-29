@@ -19,6 +19,10 @@
 /*--------------*/
 /* NAVBAR BRAND */
 /*--------------*/
+.ql-navbar-brand {
+  letter-spacing: -0.04em;
+}
+
 .navbar-default .navbar-brand {
     font-style: italic;
     font-weight: bold;
