@@ -6,16 +6,8 @@
   color: #eee;
 }
 
-.ql-clients .ql-client-image {
-  padding-top: 3em;
-}
-
-.ql-clients h2, .ql-clients h3 {
+.ql-clients h2, .ql-clients h3, .ql-clients h4 {
   color: #eee;
-}
-
-.ql-clients ul {
-  padding-left: 80px;
 }
 
 .ql-clients li {
