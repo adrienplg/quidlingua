@@ -22,6 +22,7 @@
             enLangLink.removeAttr('class',"active");
           }
           langModule.changeLang(lang);
+          $(".navbar-collapse").collapse('hide');
         };
 
         this.init = function() {
@@ -65,6 +66,7 @@
   
     $scope.itemClicked = function ($index) {
       $scope.selectedIndex = $index;
+      $(".navbar-collapse").collapse('hide');
     }
   });
 
