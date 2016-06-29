@@ -1,27 +1,16 @@
-/*
-color picker: 
-http://coloreminder.com
-
-main blue: #003399
-*/
-
 body {
   font-family: 'Open Sans', sans-serif;
   color: #555;
 }
 
 h2 {
-  /*font-family: 'Julius Sans One', sans-serif; */
   font-family: 'PT Sans', sans-serif;
-}
-
-  font-size: 28px;
-}
-
-#mainpage {
-  /*margin-top: 50px;*/
 }
 
 .ql-mainframe {
   padding: 0;
+}
+
+.ql-separator {
+  margin: 20px 0;
 }

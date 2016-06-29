@@ -29,7 +29,7 @@
         <li ng-repeat="item in navbarItems"
             ng-class="{ 'active': $index == selectedIndex }"
             ng-click="itemClicked($index)">
-          <a href="{{ item.href }}" tkey="{{ item.label }}">{{ item.label }}</a>
+          <a href="{{ item.href }}" tkey="{{ item.key }}">{{ item.label }}</a>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->

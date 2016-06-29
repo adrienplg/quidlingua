@@ -10,22 +10,22 @@
   app.controller('NavBarController', function($scope){
     $scope.navbarItems = [
       {
-        key: 'about',
+        key: 'navbar-about',
         label: 'About',
         href: '#about'
       },
       {
-        key: 'services',
+        key: 'navbar-services',
         label: 'Services',
         href: '#services'
       },
       {
-        key: 'clients',
+        key: 'navbar-clients',
         label: 'Clients',
         href: '#clients'
       },
       {
-        key: 'contact',
+        key: 'navbar-contact',
         label: 'Contact',
         href: '#contact'
       }
