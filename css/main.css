@@ -45,3 +45,12 @@ p {
 .ql-separator {
   margin: 2em 0;
 }
+
+/*@media (max-width: 767px) {*/
+  /*h2 {*/
+    /*font-size: 260%;*/
+  /*}*/
+  /*h3 {*/
+    /*font-size: 170%;*/
+  /*}*/
+/*}*/

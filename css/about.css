@@ -19,3 +19,9 @@
 .ql-image {
   margin: 0 auto 2em auto;
 }
+
+@media (max-width: 767px) {
+  .ql-about {
+    padding: 2em 0 3em 0;
+  }
+}
