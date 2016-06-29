@@ -68,6 +68,17 @@
     }
   });
 
+  app.directive('qlPresentation', function(){
+    return{
+      restrict: 'E',
+      templateUrl: 'views/mainpage/ql-presentation.html',
+      controller: function(){
+
+      },
+      controllerAs: 'presentationCtrl'
+    };
+  });
+
   app.directive('qlAbout', function(){
     return{
       restrict: 'E',
@@ -111,7 +122,7 @@
       controllerAs: 'contactCtrl'
     };
   });
-  
+
   app.directive('qlFooter', function(){
     return{
       restrict: 'E',

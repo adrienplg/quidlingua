@@ -1,8 +1,7 @@
 .ql-presentation-container {
-  height: 240px;
-  margin: 0 auto 15px auto;
-  display: flex;
-  justify-content: center;
+  width: 100%;
+  background-color: #FBFBFC;
+  border-bottom: 1px solid #E1E1E1;
 }
 
 .ql-text-container {
