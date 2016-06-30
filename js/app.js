@@ -66,7 +66,17 @@
   
     $scope.itemClicked = function ($index) {
       $scope.selectedIndex = $index;
+      $scope.scrollToItem($scope.navbarItems[$index].href);
       $(".navbar-collapse").collapse('hide');
+    }
+
+    $scope.scrollToItem = function(itemId) {
+      $('html, body').animate({scrollTop: $(itemId).offset().top});
+      return false;
+    };
+
+    $scope.unselectAllItems = function() {
+      $scope.selectedIndex = -1;
     }
   });
 
@@ -129,10 +139,18 @@
     return{
       restrict: 'E',
       templateUrl: 'views/footer/ql-footer.html',
-      controller: function(){
+      controller: function($scope){
+        this.scrollDown = function() {
+          $('html, body').animate({scrollTop: $(document).height()}, 10);
+          return false;
+        };
 
+        this.scrollToTop = function() {
+          $('html, body').animate({scrollTop: $('#ql-navbar').offset().top});
+          return false;
+        };
       },
-      controllerAs: 'footerCtrl'
+      controllerAs: 'footerCtrl',
     };
   });
 })();

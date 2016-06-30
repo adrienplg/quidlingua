@@ -3,11 +3,11 @@
     <div class="container">
       <div class="inner-container">
         <p>&copy; 2016 QuidLingua, Inc. &middot;
-          <a href="#">Home</a>
+          <a href="" ng-click="unselectAllItems(); footerCtrl.scrollToTop()">Home</a>
           &nbsp;&nbsp;&nbsp;
-          <a href ng-click="navbarCtrl.setActiveLang('en')">EN</a>
+          <a href="" ng-click="navbarCtrl.setActiveLang('en'); footerCtrl.scrollDown()">EN</a>
           -
-          <a href ng-click="navbarCtrl.setActiveLang('fr')">FR</a>
+          <a href="" ng-click="navbarCtrl.setActiveLang('fr'); footerCtrl.scrollDown()">FR</a>
         </p>
       </div> <!-- inner-container -->
     </div> <!-- container -->
