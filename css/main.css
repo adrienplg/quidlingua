@@ -12,7 +12,7 @@ h2 {
   font-family: 'PT Sans', sans-serif;
   color: #E87B0C;
   margin-top: .25em;
-  font-size: 320%;
+  font-size: 310%;
   letter-spacing: -.01em;
   font-weight: 100;
 }
@@ -46,11 +46,30 @@ p {
   margin: 2em 0;
 }
 
-/*@media (max-width: 767px) {*/
-  /*h2 {*/
-    /*font-size: 260%;*/
-  /*}*/
-  /*h3 {*/
-    /*font-size: 170%;*/
-  /*}*/
-/*}*/
+
+@media (max-width: 991px) {
+  h2 {
+    font-size: 290%;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+  }
+  h3 {
+    font-size: 200%;
+  }
+  .ql-separator {
+    margin: 1em 0;
+  }
+}
+
+@media (max-width: 767px) {
+  h2 {
+    font-size: 260%;
+    margin-bottom: 0.5em;
+  }
+  h3 {
+    font-size: 170%;
+  }
+  .ql-separator {
+    margin: 1em 0;
+  }
+}
