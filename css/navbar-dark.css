@@ -63,11 +63,9 @@
 /*-----------------*/
 .navbar-collapse.collapsing{
     background-color: #454545;
-    /*padding: 0;*/
 }
 .navbar-collapse.in{
     background-color: #454545;
-    /*padding: 0;*/
 }
 
 .navbar-toggle {
