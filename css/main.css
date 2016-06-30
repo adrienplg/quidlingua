@@ -1,27 +1,56 @@
-/*
-color picker: 
-http://coloreminder.com
-
-main blue: #003399
-*/
-
 body {
   font-family: 'Open Sans', sans-serif;
   color: #555;
+  font-size: 100%;
+}
+
+h2, h3 {
+  text-align: center;
 }
 
 h2 {
-  /*font-family: 'Julius Sans One', sans-serif; */
   font-family: 'PT Sans', sans-serif;
+  color: #E87B0C;
+  margin-top: .25em;
+  font-size: 320%;
+  letter-spacing: -.01em;
+  font-weight: 100;
 }
 
-  font-size: 28px;
+h3 {
+  color: #888;
+  margin-top: .6em;
+  font-size: 230%;
 }
 
-#mainpage {
-  /*margin-top: 50px;*/
+h4 {
+  margin: 0.2em 0 0 0;
+  font-weight: 600;
+  font-size: 180%;
+  color: #111;
+}
+
+p {
+  font-size: 140%;
+}
+
+.navbar-nav {
+  font-size: 140%;
 }
 
 .ql-mainframe {
   padding: 0;
 }
+
+.ql-separator {
+  margin: 2em 0;
+}
+
+/*@media (max-width: 767px) {*/
+  /*h2 {*/
+    /*font-size: 260%;*/
+  /*}*/
+  /*h3 {*/
+    /*font-size: 170%;*/
+  /*}*/
+/*}*/

@@ -1,31 +1,64 @@
 (function (){
-	var app = angular.module('quidlingua', ['quidlingua-mainpage']);
+  var app = angular.module('quidlingua', []);
 
-	// Index page controller
-	app.controller('MainPageController', function(){
-		var frenchMainPage = { name: 'french_main', url: 'fr/index.html'}
-	});
+  app.directive('qlNavbar', function(){
+    return{
+      restrict: 'E',
+      templateUrl: 'views/navbar/ql-navbar.html',
+      controller: function(){
+
+        this.setActiveLang = function(lang) {
+          // get both language links
+          var enLangLink = angular.element(document.querySelector('#enLang'));
+          var frLangLink = angular.element(document.querySelector('#frLang'));
+          // activate the english link
+          if (lang === 'en'){
+            enLangLink.attr('class',"active");
+            frLangLink.removeAttr('class',"active");
+          }
+          // activate the french link
+          if (lang === 'fr'){
+            frLangLink.attr('class',"active");
+            enLangLink.removeAttr('class',"active");
+          }
+          langModule.changeLang(lang);
+          $(".navbar-collapse").collapse('hide');
+        };
+
+        this.init = function() {
+          // initialize the language module
+          langModule.init();
+          // get the stored language and use it to set the active flag on the language buttons
+          var lang = langModule.getStoredLang();
+          this.setActiveLang(lang);
+        };
+
+        this.init();
+      },
+      controllerAs: 'navbarCtrl'
+    };
+  });
 
   // navbar controller
   app.controller('NavBarController', function($scope){
     $scope.navbarItems = [
       {
-        key: 'about',
+        key: 'navbar-about',
         label: 'About',
         href: '#about'
       },
       {
-        key: 'services',
+        key: 'navbar-services',
         label: 'Services',
         href: '#services'
       },
       {
-        key: 'clients',
+        key: 'navbar-clients',
         label: 'Clients',
         href: '#clients'
       },
       {
-        key: 'contact',
+        key: 'navbar-contact',
         label: 'Contact',
         href: '#contact'
       }
@@ -33,6 +66,7 @@
   
     $scope.itemClicked = function ($index) {
       $scope.selectedIndex = $index;
+      $(".navbar-collapse").collapse('hide');
     }
   });
 
@@ -88,65 +122,6 @@
 
       },
       controllerAs: 'contactCtrl'
-    };
-  });
-
-  app.directive('qlCarousel', function(){
-    return{
-      restrict: 'E',
-      templateUrl: 'views/mainpage/ql-carousel.html',
-      controller: function(){
-
-      },
-      controllerAs: 'carouselCtrl'
-    };
-  });
-
-  app.directive('qlMarketing', function(){
-    return{
-      restrict: 'E',
-      templateUrl: 'views/mainpage/ql-marketing.html',
-      controller: function(){
-
-      },
-      controllerAs: 'marketingCtrl'
-    };
-  });
-
-  app.directive('qlNavbar', function(){
-    return{
-      restrict: 'E',
-      templateUrl: 'views/navbar/ql-navbar.html',
-      controller: function(){
-
-        this.setActiveLang = function(lang) {
-          // get both language links
-          enLangLink = angular.element(document.querySelector('#enLang'));
-          frLangLink = angular.element(document.querySelector('#frLang'));
-          // activate the english link
-          if (lang === 'en'){
-            enLangLink.attr('class',"active");
-            frLangLink.removeAttr('class',"active");
-          }
-          // activate the french link
-          if (lang === 'fr'){
-            frLangLink.attr('class',"active");
-            enLangLink.removeAttr('class',"active");
-          }
-          langModule.changeLang(lang);
-        };
-
-        this.init = function() {
-          // initialize the language module
-          langModule.init();
-          // get the stored language and use it to set the active flag on the language buttons
-          lang = langModule.getStoredLang();
-          this.setActiveLang(lang);
-        };
-
-        this.init();
-      },
-      controllerAs: 'navbarCtrl'
     };
   });
 

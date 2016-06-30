@@ -5,37 +5,107 @@
 }
 
 .navbar-default{
-  height: 80px;
   background-color: #687699;
-  /*border-color: #99add6;*/
-  display: flex;
-  justify-content: center;
 }
 
-.ql-navbar-container {
-  align-self: center;
+.container>.navbar-header {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.ql-navbar-padding {
+  padding: 0.5em 0;
+}
+
+.ql-brand-and-items-padding {
+  padding-top: 0.15em;
+}
+
+@media (max-width: 767px) {
+    .navbar-default{
+        height: 6em;
+    }
+    .ql-navbar-padding {
+        padding: 0;
+    }
+    .navbar-brand{
+        padding: 0.6em 0 0 0.5em;
+    }
+    .navbar-toggle{
+        /*margin-right: 3em;*/
+    }
+    .nav > li {
+        padding-left: 1em;
+    }
 }
 
 /*--------------*/
 /* NAVBAR BRAND */
 /*--------------*/
+.ql-navbar-brand {
+  letter-spacing: -0.04em;
+}
+
 .navbar-default .navbar-brand {
     font-style: italic;
     font-weight: bold;
-    font-size: 32px; 
-    /*color: #001e5b;*/
+    font-size: 32px;
     color: #f2f2f2;
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand>.active {
-  /*color: #001e5b;*/
   color: #f2f2f2;
 }
 
-/*UNUSED AT THIS POINT*/
-.navbar-header h2 {
-  /*font-size: 16px;*/
-  /*color: #3d3d3d;*/
+.ql-lang-nav-items {
+    /*padding-top: 0.7em;*/
+}
+
+/*-----------------*/
+/* NAVBAR COLLAPSE */
+/*-----------------*/
+.navbar-collapse.collapsing{
+    background-color: #454545;
+    /*padding: 0;*/
+}
+.navbar-collapse.in{
+    background-color: #454545;
+    /*padding: 0;*/
+}
+
+.navbar-toggle {
+    color: #f2f2f2;
+}
+
+.navbar-toggle .fa {
+    font-size: 200%;
+}
+
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #a4acc1;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #d1d5e0;
+    color: #687699;
+}
+
+.divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: orange;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: pink;
+    }
 }
 
 /*--------------*/
@@ -52,25 +122,6 @@
 
 .navbar-default .navbar-nav>li>a:hover {
   color: #d8d8d8;
-}
-
-/*####### ORANGE ########*/
-/*----------------------*/
-/* NAVBAR ITEMS SELECTED*/
-/*----------------------*/
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: #E87B0C;
-    background-color: transparent;
-    font-weight: 300;
-}
-
-/*-------------------------*/
-/* NAVBAR LANG ITEMS ACTIVE*/
-/*-------------------------*/
-.navbar-default .navbar-nav.ql-lang-nav-items>.active>a {
-  background-color: #fcf1e6;
-  border: 1px solid #E87B0C;
-  border-radius: 4px;
 }
 
 /*####### LIGHT BLUE ########*/
