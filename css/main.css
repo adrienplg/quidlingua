@@ -31,7 +31,7 @@ h4 {
 }
 
 p {
-  font-size: 140%;
+  font-size: 160%;
 }
 
 .navbar-nav {
@@ -71,5 +71,8 @@ p {
   }
   .ql-separator {
     margin: 1em 0;
+  }
+  p {
+  font-size: 140%;
   }
 }

@@ -44,7 +44,7 @@
 }
 
 .navbar-default .navbar-brand {
-    font-style: italic;
+    /*font-style: italic;*/
     font-weight: bold;
     font-size: 32px;
     color: #f2f2f2;
