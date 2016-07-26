@@ -19,21 +19,18 @@
   "services-item-editing-text": "Refine translated texts by incorporating preferred terminology. Recast texts according to stylistic norms.",
   "services-item-proofreading-title": "Proofreading",
   "services-item-proofreading-text": "Thorough review of translated texts to ensure clear interpretation of legal issues and terminological consistency.",
-<<<<<<< HEAD                                                                                                                                                                                                                                                                                                                                                                                                                                               
   "services-item-doc-review-title": "Glossary Development",
   "services-item-doc-review-text": "Create terminology glossaries and style guides to eliminate uncertainty in the translation process.",
   "services-item-glossary-title": "Document Review",
   "services-item-glossary-text": "Assist clients with French document review during e-discovery process.",
   "services-item-last-one-title": "Interpreting",
   "services-item-last-one-text": "Assist French-speaking and English-speaking clients during legal and HR meetings.",
-=======
   "services-item-glossary-title": "Glossary Development",
   "services-item-glossary-text": "Create terminology glossaries and style guides to eliminate uncertainty in the translation process.",
   "services-item-doc-review-title": "Document Review",
   "services-item-doc-review-text": "Assist clients with French document review during e-discovery process.",
   "services-item-interpreting-title": "Interpreting",
   "services-item-interpreting-text": "Assist English-speaking and French-speaking clients during legal and HR meetings.",
->>>>>>> origin/master
   "EMPTY-SEPARATOR": "----------CLIENTS SECTION-----------------",
   "clients-title": "Clients",
   "clients-subtitle": "Build a more direct and practical relationship with a translator who understands your legal and HR needs.",
