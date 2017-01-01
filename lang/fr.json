@@ -9,7 +9,7 @@
   "about-paragraph-1": "Quid Lingua est un service de traduction géré par une juriste, Audrey Pouligny, possédant une connaissance approfondie du droit civil et de la <i>common law</i>.",
   "about-paragraph-2": "Audrey est franco-américaine. Elle est titulaire d’une Maîtrise en Droit Social délivrée par l’Université Paris II Panthéon-Assas, d’un Master Professionnel en Mobilité Internationale délivré par l’Université Lumière Lyon II, et d’un Certificat de <i>Common Law</i> et de Droit Comparé décerné par l’Université Paris V Descartes.",
   "about-paragraph-3": "Elle est admise au Barreau de Paris et bénéficie d’une expérience en contentieux, tant en France qu’aux Etats-Unis, dans des domaines de droit variés. Elle a conseillé des clients internationaux sur un large éventail de problématiques liées au droit du travail et à la gestion des Ressources Humaines.",
-  "about-paragraph-4": "Audrey est membre de l'Association des Traducteurs de la Californie du Nord (NCTA). Elle a pour objectif de proposer des traductions pertinentes avec un véritable savoir-faire juridique et RH.",
+  "about-paragraph-4": "Audrey est membre de la <i>Northern California Translators Association</i> (NCTA) et de la <i>American Translators Association</i> (ATA). Elle a pour objectif de proposer des traductions pertinentes avec un véritable savoir-faire juridique et RH.",
   "EMPTY-SEPARATOR2": "----------SERVICES SECTION-----------------",
   "services-title": "Projet juridique, Projet RH",
   "services-subtitle": "Assurez une cohérence supérieure dans l'interprétation juridique de vos projets afin de servir au mieux les intérêts de vos clients.",
@@ -44,6 +44,6 @@
   "contact-audrey": "Contactez Audrey:",
   "contact-by-phone": "Par téléphone:",
   "contact-number": "+1-415-867-7864",
-  "contact-timezone": "UTC-7 <i>Pacific Time Zone</i>",
+  "contact-timezone": "UTC-8 <i>Pacific Time Zone</i>",
   "contact-by-email": "Par e-mail:"
 }
